@@ -1,0 +1,219 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body,html{
+	font-family: 'Times New Roman',Times,serif,sans-serif;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('mainbg.jpg');
+	height:100vh;
+	background-size:cover;
+}
+a {
+    color: ghostwhite;
+}
+/*-----Home page main section------*/
+.welcome{
+	position: absolute;
+	width: 650px;
+	height: 300px;
+    margin: 20% 30%;
+	text-align: center;
+}
+.welcome h1{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+.welcome a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome a:hover {
+	  border: 1px solid #f44336;
+    transition: 1s;
+    background: #f44336;
+}
+.header {
+    position: fixed;
+    width: 100%;
+}
+.header ul {
+    margin:0;
+    padding: 10px;
+    list-style: none;
+    overflow: hidden;
+}
+.header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.header li a:hover {
+    border: 1px solid #f44336;
+    transition: 1s;
+    background: #f44336;
+}
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+  /* device minimum width 48em */
+  
+@media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+
+      max-height: none;
+    }
+    }
+/*------Aboutus section--------*/
+.heading{
+    font-size: 32px;
+    text-align: center;
+    color: indigo;
+    text-decoration: none;
+}
+.covid{
+    padding: 50px 30px 50px 50px;
+    width: 500px;
+    float: left;
+}
+.about-content::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.about-content p{
+    padding:50px 50px 50px 0px;
+    font-size: large;
+    background-color:aquamarine;
+    margin: 50px 20px 50px 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 15px blueviolet;
+}
+/*------Contact us section-------*/
+.container{
+    margin: 20px auto;
+    width: 40%;
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 30px 30px 20px 20px;
+    box-shadow: 10px 10px 15px lavender;
+}
+.whole{
+    background-image: url(contact.jpg);
+    background-size: 50% 100%;
+}
+
+form{
+    margin: 20px 0px 10px 0px;
+}
+
+.head{
+    font-size: 32px;
+    text-align: center;
+    color: #f44336;
+    text-decoration: none;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    width:100%;
+    height: 10px;
+}
+
+input,textarea{
+    font-size: 16px;
+    width: 100%;
+    height: 32px;
+    padding: 8px 5px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    outline: none;
+}
+textarea{
+    height: 80px;
+}
+
+.submit-btn{
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease;
+    background: #f44336;
+}
+
+/*-----footer section-------*/
+footer{
+   background: lavender;
+    height: auto;
+    width: 100vw;
+    padding: 10px 0px;
+    color: black;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.icon-link{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.icon-link li{
+    margin: 0 10px;
+}
+.fa:hover{
+    width: 30px;
+}
+.fa{
+    text-decoration: none;
+    padding: 20px;
+  font-size: 50px;
+   text-align: center;
+    border-radius: 100%;
+    transition: width 2s;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+} 
+.fa-youtube {
+    background: #c4302b;
+    color: white;
+} 
