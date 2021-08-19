@@ -42,6 +42,10 @@ a {
     transition: 1s;
     background: #f44336;
 }
+.header h4{
+    color: white;
+    font-size: 14px;
+}
 .header {
     position: fixed;
     width: 100%;
@@ -70,9 +74,9 @@ a {
     text-decoration: none;
 }
 
-  /* device maximum width 1080px */
+  /* device minimum width 48em */
   
-@media (max-width: 1080em) {
+@media (min-width: 48em) {
     .header li {
       float: left;
     }
@@ -86,7 +90,6 @@ a {
       max-height: none;
     }
     }
-
 /*------Aboutus section--------*/
 .heading{
     font-size: 32px;
