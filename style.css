@@ -70,9 +70,9 @@ a {
     text-decoration: none;
 }
 
-  /* device minimum width 48em */
+  /* device maximum width 1080px */
   
-@media (min-width: 48em) {
+@media (max-width: 1080em) {
     .header li {
       float: left;
     }
@@ -86,6 +86,7 @@ a {
       max-height: none;
     }
     }
+
 /*------Aboutus section--------*/
 .heading{
     font-size: 32px;
