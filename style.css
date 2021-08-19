@@ -42,10 +42,6 @@ a {
     transition: 1s;
     background: #f44336;
 }
-.header h4{
-    color: white;
-    font-size: 14px;
-}
 .header {
     position: fixed;
     width: 100%;
